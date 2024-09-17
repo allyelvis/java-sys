@@ -1,5 +1,5 @@
 entrypoint = "main.sh"
-modules = ["bash", "java-graalvm22.3", "gcloud"]
+modules = ["bash", "gcloud", "java-graalvm22.3", "nodejs-20"]
 
 [nix]
 channel = "stable-24_05"
@@ -7,3 +7,7 @@ channel = "stable-24_05"
 [deployment]
 run = ["bash", "main.sh"]
 deploymentTarget = "cloudrun"
+
+[[ports]]
+localPort = 9005
+externalPort = 80
