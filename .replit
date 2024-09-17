@@ -1,0 +1,9 @@
+entrypoint = "main.sh"
+modules = ["bash", "java-graalvm22.3", "gcloud"]
+
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["bash", "main.sh"]
+deploymentTarget = "cloudrun"
