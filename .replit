@@ -1,5 +1,5 @@
 entrypoint = "main.sh"
-modules = ["bash", "bun-1.1", "gcloud", "java-graalvm22.3", "nodejs-20"]
+modules = ["bash", "bun-1.1", "gcloud", "java-graalvm22.3", "nodejs-20", "nodejs-14", "ruby-3.2", "web", "docker"]
 
 [nix]
 channel = "stable-24_05"
