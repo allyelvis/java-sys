@@ -1,0 +1,15 @@
+{
+  "name": "MusicApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "@react-native-firebase/app": "^20.5.0",
+    "@react-native-firebase/storage": "^20.5.0",
+    "@react-navigation/native": "^6.1.18",
+    "@react-navigation/stack": "^6.4.1",
+    "react-native": "0.75.3"
+  }
+}
