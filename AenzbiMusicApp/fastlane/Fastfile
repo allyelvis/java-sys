@@ -1,0 +1,16 @@
+default_platform(:android)
+
+platform :android do
+  desc "Deploy the Android app to Google Play Store"
+  lane :deploy do
+    supply(
+      track: 'production',
+      package_name: "com.aenzbi.musicapp",
+      json_key: "/path/to/your/play_store_key.json",
+      apk: "./android/app/build/outputs/apk/release/app-release.apk",
+      skip_upload_images: true,
+      skip_upload_screenshots: true,
+      skip_upload_metadata: true
+    )
+  end
+end
