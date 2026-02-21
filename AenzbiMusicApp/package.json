@@ -6,10 +6,10 @@
     "start": "node node_modules/react-native/local-cli/cli.js start"
   },
   "dependencies": {
-    "@react-native-firebase/app": "^20.5.0",
-    "@react-native-firebase/storage": "^20.5.0",
+    "@react-native-firebase/app": "^23.8.6",
+    "@react-native-firebase/storage": "^23.8.6",
     "@react-navigation/native": "^6.1.18",
     "@react-navigation/stack": "^6.4.1",
-    "react-native": "0.75.3"
+    "react-native": "0.84.0"
   }
 }
